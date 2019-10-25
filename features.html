@@ -146,9 +146,21 @@
   	        </footer>
 
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.4/headroom.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.4/jQuery.headroom.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
               <script>
+              // Initiate wow
               new WOW().init();
+              // Initiate headroom
+                $('.js-headroom').headroom(
+                  {
+                    tolerance: {
+                      up: 5,
+                      down: 68
+                    }
+                  }
+                );
               </script>
 
     	</article>
