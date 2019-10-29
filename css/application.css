@@ -6,5 +6,7 @@
 .cut{-webkit-clip-path: polygon(0 0, 0 85%, 100% 100%, 100% 0);clip-path: polygon(0 0, 0 85%, 100% 100%, 100% 0);}
 .text-decoration-none{text-decoration: none;}
 .split-background{background: linear-gradient(90deg, #AAABAA 50%, #AAABAA 50%, #3A4044 50%);}
+.letter-spacing-2{letter-spacing: .2rem;}
+
 
 @media (max-width: 52em){.split-background {background: #AAABAA;}}
