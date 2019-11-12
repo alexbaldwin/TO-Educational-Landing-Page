@@ -1,6 +1,6 @@
 ---
 title: TeamWork Online - Applicant Tracking System
-layout: default
+layout: default-alt_nav
 permalink: /ats/
 header:
   title: "ATS"
@@ -29,14 +29,15 @@ header:
 {% assign atsProduct = site.data.posts.atsProduct %}
 
 {% for item in atsProduct %}
-<header class="md-flex items-center mxn2 mt4 mb0 wow fadeInUp" data-wow-delay="0.2s">
+<article class="md-flex items-center mxn2 mt4 mb0 wow fadeInUp" data-wow-delay="0.2s">
 <div class="col-12 md-col-7 ml2 pr4">
 <h2 class="oswald line-height-3 h2 black caps mb0">{{ item.title }}</h2>
 <h4 class="line-height-4 h4 regular mb3 black mb4">{{ item.desc }}</h4>
 </div>
 <div class="col-12 md-col-5">
-<img class="block col-12" src="{{ item.image.url }}">
+<img class="block col-12 {% cycle 'flex-last', '' %}" src="{{ item.image.url }}">
 </div>
-</header>
+</article>
+
 {% endfor %}
 </section>

@@ -1,6 +1,6 @@
 ---
 title: TeamWork Online - Special Products and Features
-layout: default
+layout: default-alt_nav
 permalink: /features/
 header:
   title: "Features"

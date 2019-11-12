@@ -1,6 +1,6 @@
 ---
 title: TeamWork Online - Recruiting Tools
-layout: default
+layout: default-alt_nav
 permalink: /tools/
 header:
   title: "Sport’s leading executive recruiting firm"
