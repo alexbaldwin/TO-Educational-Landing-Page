@@ -20,7 +20,7 @@ cta:
 {% for item in productLink %}
 <a href="{{ item.url }}" class="text-decoration-none px2 flex flex-column col-12 md-col-4 mb3 wow fadeInUp" data-wow-delay="0.2s">
 <div class="flex-auto px3 pt3 card-shadow bg-white"  style="margin-top: -4rem;">
-<img src="{{ item.icon.url }}" style= "width: 40px;">
+<img src="{{ item.icon.url }}" style= "width: 44px;">
 <h2 class="oswald black mb2">{{ item.name }}</h2>
 <h3 class="oswald line-height-4 h4 mb3 regular black">{{ item.description }}</h3>
 </div>
@@ -55,14 +55,14 @@ cta:
 <div class="px2 mt4 clearfix">
 <div class="md-flex flex-auto">
 
-{% assign numberedList = site.data.posts.numberedList %}
+{% assign orderedList = site.data.posts.orderedList %}
 
-{% for item in numberedList %}
+{% for item in orderedList %}
 
 <div class="sm-col-12 md-col-3 px2 wow fadeInUp" data-wow-delay="0.1s">
 <h3 class="oswold black h3 bold mb2">{{ item.order }}</h3>
-<h4 class="oswold black h4 my0 bold">{{ item.name }}</h4>
-<p class="mb4 oswold black h5 regular">{{ item.description }}</p>
+<h4 class="oswold black h4 my0 bold">{{ item.title }}</h4>
+<p class="mb4 oswold black h5 regular">{{ item.desc }}</p>
 </div>
 
 {% endfor %}
