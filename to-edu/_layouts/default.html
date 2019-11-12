@@ -1,0 +1,180 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+        <title>{{ page.title }}</title>
+        {% if page.hide == true %}
+        <meta name="robots" content="noindex">
+        {% endif %}
+        {% seo %}
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="{{ "/css/application.css" | relative_url }}">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Oswald:400,600,700" rel="stylesheet">
+        <link rel="stylesheet" href="{{ "/images/icofont/icofont.min.css" }}">
+    </head>
+    <body>
+
+      <article class="flex flex-column" style="min-height:100vh">
+
+        <div class="flex-none js-headroom fixed col-12 z4" data-scroll-header>
+          <div class="container mx-auto">
+            <nav class="md-flex items-center">
+              <div class="flex-auto p2">
+                <a href="/" class="black text-decoration-none py2 bold h3 m0">
+                  <img class="block" src="/images/teamwork-online_logo.png" width="320">
+                </a>
+              </div>
+              <div class="flex-none p2 js-nav">
+                {% for n in site.nav %}
+                <a href="{{ n.url }}" class="oswald caps semibold ltr-spacing-2 white p2 text-decoration-none inline-block relative">{{ n.title }}</a>
+                {% endfor %}
+                {% include cta.html inverted=true %}
+              </div>
+            </nav>
+          </div>
+        </div>
+
+        <main class="flex-auto" id="barba-wrapper">
+          <div class="barba-container">{{ content }}</div>
+        </main>
+
+        <footer class="flex-none bg-black pb4">
+  				<header class="center col-12 md-col-10 mx-auto py4 my1">
+  					<h3 class="oswald line-height-3 h3 mt4 mb2 white caps">Find your best candidates today with your organization’s very own license.</h3>
+  					<p class="mt4">
+  							<a class="btn-two caps oswald black bg-white semibold h6 px3 py1 ltr-spacing-2" href="mailto:buffy@teamworkonline.com?subject=I%20want%20more%20information%20on%20TeamWork%20Consulting">Contact us about an annual license</a>
+  						</p>
+  				</header>
+            		<div class="container mx-auto px2 py1">
+  		            <div class="md-flex items-center muted">
+  		              <p class="py2 pr4 flex-auto m0 white">&copy;2019. TeamWork Online LLC provides a variety of recruiting products and services to the sports and live events industry. TeamWork Consulting was the original service which spawned various products organized under the TeamWork Online name.</p>
+  		              <div class="py1 flex-none mxn2">
+  		                <a class="inline-block px2" href="https://twitter.com/teamworkonline">
+  		                  <img class="block" src="https://icon.now.sh/twitter/32/f8f8f8">
+  		                </a>
+  		                <a class="inline-block px2" href="https://www.instagram.com/teamworkonline/">
+  		                  <img class="block" src="https://icon.now.sh/instagram/32/f8f8f8">
+  		                </a>
+  		                <a class="inline-block px2" href="https://www.facebook.com/TeamWorkOnline">
+  		                  <img class="block" src="https://icon.now.sh/facebook/32/f8f8f8">
+  		                </a>
+  		                <a class="inline-block px2" href="https://www.linkedin.com/company/teamwork-online-llc">
+  		                  <img class="block" src="https://icon.now.sh/linkedin/32/f8f8f8">
+  		                </a>
+  		              </div>
+  		            </div>
+            		</div>
+          </footer>
+
+      </article>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.4/headroom.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.4/jQuery.headroom.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/12.1.5/js/smooth-scroll.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+      <script src="/js/easy_background.min.js"></script>
+      <script src="/js/atvImg.js"></script>
+      <script>
+
+{% assign header_background_images = site.data.posts.homePage[0].header_background_images %}
+
+$(document).ready(function(){
+  easy_background('.js-easybg',
+    {
+      slide: [
+        {% for item in header_background_images %}
+          "{{ item.url }}",
+        {% endfor %}
+      ],
+      delay: [5000, 5000, 5000]
+    }
+
+  );
+
+  new WOW().init();
+
+  atvImg();
+
+  function matchHeight() {
+    var height = $('.js-headroom').height(); //where #grownDiv is what's growing
+    //$('.barba-container').css('padding-top', height);    //where .matchDiv is the class of the other two
+  }
+  jQuery.event.add(window,"load",matchHeight);
+  jQuery.event.add(window,"resize",matchHeight);
+
+});
+        // Initiate headroom
+$('.js-headroom').headroom(
+  {
+    tolerance: {
+      up: 5,
+      down: 68
+    }
+  }
+);
+
+// Initiate smooth scroll
+var scroll = new SmoothScroll('a[href*="#"]',{
+  header: '[data-scroll-header]'
+});
+
+
+// Custom Barba transition
+var FadeTransition = Barba.BaseTransition.extend({
+  start: function() {
+    Promise
+      .all([this.newContainerLoading, this.fadeOut()])
+      .then(this.fadeIn.bind(this));
+  },
+
+  fadeOut: function() {
+    return $(this.oldContainer).animate({ opacity: 0 }).promise();
+  },
+
+  fadeIn: function() {
+    var _this = this;
+    var $el = $(this.newContainer);
+
+    $(this.oldContainer).hide();
+
+    $el.css({
+      visibility : 'visible',
+      opacity : 0
+    });
+
+    $el.animate({ opacity: 1 }, 400, function() {
+      _this.done();
+    });
+
+    // Scroll to top of the frame
+    scroll.animateScroll( 0 );
+  }
+});
+
+Barba.Pjax.getTransition = function() {
+  return FadeTransition;
+};
+
+Barba.Dispatcher.on('linkClicked', function(HTMLElement) {
+    var toggle = $(HTMLElement);
+    $('.js-nav--active').removeClass('js-nav--active');
+    toggle.addClass('js-nav--active');
+});
+
+// Toggle for Pjax transitions
+// Barba.Pjax.start();
+
+</script>
+<script>
+  window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+ga('create','{{ site.google_analytics }} ','auto');ga('send','pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async defer></script>
+  </body>
+</html>

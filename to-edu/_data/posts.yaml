@@ -1,0 +1,486 @@
+---
+orderedList:
+- sys:
+    id: 4uWT11KH5rVOR3RJVGIECg
+    created_at: !ruby/object:DateTime 2019-11-12 00:38:40.555000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-12 00:38:40.555000000 Z
+    content_type_id: orderedList
+    revision: 1
+  order: 1
+  title: Industry Leader
+  desc: According to Google Analytics, over 50% of job applicants to major league
+    organizations find their dream job going directly to or searching for “TeamWork
+    Online.”
+- sys:
+    id: 45uowXP12j4axscA05jtWN
+    created_at: !ruby/object:DateTime 2019-11-12 00:38:32.507000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-12 00:38:32.507000000 Z
+    content_type_id: orderedList
+    revision: 1
+  order: 2
+  title: Top Talent
+  desc: Its dedicated site showcases only vetted high quality jobs from over 900+
+    sports teams or events. It’s not a job board nor aggregator. Employers are members,
+    many for over 10+ years.
+- sys:
+    id: 7bVzIfKE9ZAvFPYJb6vlWk
+    created_at: !ruby/object:DateTime 2019-11-12 00:38:22.788000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-12 00:38:22.788000000 Z
+    content_type_id: orderedList
+    revision: 1
+  order: 3
+  title: Community
+  desc: Its welcoming platform attracts 200,000 diverse candidates annually.
+- sys:
+    id: 7wuU8Pjg4wl0UkKZoQuNro
+    created_at: !ruby/object:DateTime 2019-11-12 00:38:13.180000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-12 00:38:13.180000000 Z
+    content_type_id: orderedList
+    revision: 1
+  order: 4
+  title: Higher Education
+  desc: 300+ universities are partners and 45+ of them subscribe to in-depth career
+    counseling for their students. There are similar partnerships with professional
+    organizations.
+- sys:
+    id: 5mfGEhokXdE0j8jwUfViDT
+    created_at: !ruby/object:DateTime 2019-11-12 00:38:02.649000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-12 00:38:02.649000000 Z
+    content_type_id: orderedList
+    revision: 1
+  order: 5
+  title: Flexible
+  desc: It provides talent acquisition tools and services that are not provided by
+    other talent management systems yet can integrate into those services.
+unorderedList:
+- sys:
+    id: 6rwCsAt8PntCssB2A2Y3oy
+    created_at: !ruby/object:DateTime 2019-11-12 00:25:07.296000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-12 00:25:07.296000000 Z
+    content_type_id: unorderedList
+    revision: 1
+  image:
+    sys:
+      id: 2MadLs2tRKJG3C5vSnP97t
+      created_at: !ruby/object:DateTime 2019-11-08 17:45:39.305000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-08 18:59:42.687000000 Z
+    title: users-alt-3
+    description: 
+    url: "//images.ctfassets.net/t6iwcjsrmz2t/2MadLs2tRKJG3C5vSnP97t/daab4d5cc81fa69af57b15e0065fb590/users-alt-3.svg"
+  title: Build it right
+  desc: Universal Profile Builder and Job Application help to build up your employer
+    databases
+- sys:
+    id: 7mwAcQrL4wGyH939jpzMko
+    created_at: !ruby/object:DateTime 2019-11-12 00:24:45.675000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-12 00:24:45.675000000 Z
+    content_type_id: unorderedList
+    revision: 1
+  image:
+    sys:
+      id: 3mcmfl3Vfy4VsDX7rUrqY9
+      created_at: !ruby/object:DateTime 2019-11-12 00:24:25.807000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-12 00:24:25.807000000 Z
+    title: flag
+    description: 
+    url: "//images.ctfassets.net/t6iwcjsrmz2t/3mcmfl3Vfy4VsDX7rUrqY9/95d6753502ae80c2268c8286ac10e78a/flag.svg"
+  title: Your brand comes first
+  desc: Use your own branding on our highly customizable employer pages
+- sys:
+    id: 13U2l9tmh6XNnKlE4jl7x7
+    created_at: !ruby/object:DateTime 2019-11-12 00:23:44.064000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-12 00:23:44.064000000 Z
+    content_type_id: unorderedList
+    revision: 1
+  image:
+    sys:
+      id: 3EjBoSLgAPZFwLJGKRukdi
+      created_at: !ruby/object:DateTime 2019-11-12 00:23:39.933000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-12 00:23:39.933000000 Z
+    title: search-1
+    description: 
+    url: "//images.ctfassets.net/t6iwcjsrmz2t/3EjBoSLgAPZFwLJGKRukdi/90cc0768314f528754c2be9d63430698/search-1.svg"
+  title: Highly discoverable jobs
+  desc: Enhanced Google SEO to provide high search results and authenticity for career
+    webpages
+- sys:
+    id: 3PdpHfJeC378UED9lh5XNQ
+    created_at: !ruby/object:DateTime 2019-11-12 00:22:25.925000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-12 00:22:25.925000000 Z
+    content_type_id: unorderedList
+    revision: 1
+  image:
+    sys:
+      id: 4rqtVXhWR486497BMuvPz
+      created_at: !ruby/object:DateTime 2019-11-12 00:22:08.934000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-12 00:22:08.934000000 Z
+    title: mega-phone
+    description: 
+    url: "//images.ctfassets.net/t6iwcjsrmz2t/4rqtVXhWR486497BMuvPz/8b5c5e40b9ddc23985b6bf137a498fc8/mega-phone.svg"
+  title: Engage with your audience
+  desc: Daily email marketing to keep candidates notified and engaged with positions
+    that match their skillsets, interest, and salary requirements
+testimonial:
+- sys:
+    id: 1PtFu63DjUM5jpaAYvydx4
+    created_at: !ruby/object:DateTime 2019-11-12 00:10:17.393000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-12 00:10:17.393000000 Z
+    content_type_id: testimonial
+    revision: 1
+  name: Ali Towle
+  quote: "“Since 2010, I have turned to Buffy and TeamWork countless times. To this
+    day, I can honestly say all of my best hires have come through TeamWork.”"
+  image:
+    sys:
+      id: ZDvyQSrDooeOhlm2Ev8EW
+      created_at: !ruby/object:DateTime 2019-11-12 00:09:03.518000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-12 00:09:03.518000000 Z
+    title: Ali Towle
+    description: 
+    url: "//images.ctfassets.net/t6iwcjsrmz2t/ZDvyQSrDooeOhlm2Ev8EW/bc900c8a6ec6736e86b448df89275f75/DDD20351.jpg"
+  desc: Senior Director, Brand and Fan Experience New England Patriots
+recruitingToolsPage:
+- sys:
+    id: 3NUQA1NPCUTXhXg5hlbbCD
+    created_at: !ruby/object:DateTime 2019-11-11 23:54:42.031000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-11 23:56:17.654000000 Z
+    content_type_id: recruitingToolsPage
+    revision: 2
+  image:
+  - sys:
+      id: sjLBpY4az3vr1crRbnmdG
+      created_at: !ruby/object:DateTime 2019-11-11 23:32:14.412000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-11 23:32:14.412000000 Z
+    title: tools
+    description: 
+    url: "//images.ctfassets.net/t6iwcjsrmz2t/sjLBpY4az3vr1crRbnmdG/8ac2b16bb13dbf7f86cf4f4e980c9f29/tools.png"
+  title: Recruiting Tools
+  desc: list upcoming jobs on your license page. Keep everything tidy in a single
+    and custom place.
+  cta: Content us about an annual license
+  subheader: The industry's largest professional network of vetted passive candidates
+    who are right for your jobs
+  colleges: 300+ Colleges
+  colleges_title: Career Service Counseling with 45+ Sport Management Prorgrams.
+atsProduct:
+- sys:
+    id: 7AfIyy2bbqYDVBmchojwkm
+    created_at: !ruby/object:DateTime 2019-11-11 23:41:45.615000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-11 23:41:45.615000000 Z
+    content_type_id: atsProduct
+    revision: 1
+  image:
+    sys:
+      id: sjLBpY4az3vr1crRbnmdG
+      created_at: !ruby/object:DateTime 2019-11-11 23:32:14.412000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-11 23:32:14.412000000 Z
+    title: tools
+    description: 
+    url: "//images.ctfassets.net/t6iwcjsrmz2t/sjLBpY4az3vr1crRbnmdG/8ac2b16bb13dbf7f86cf4f4e980c9f29/tools.png"
+  title: Professional network
+  desc: Recommended vetted and qualified candidates for your jobs
+- sys:
+    id: 6rBpWCStZ7wda9fvTn6qVy
+    created_at: !ruby/object:DateTime 2019-11-11 23:41:21.133000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-11 23:41:21.133000000 Z
+    content_type_id: atsProduct
+    revision: 1
+  image:
+    sys:
+      id: sjLBpY4az3vr1crRbnmdG
+      created_at: !ruby/object:DateTime 2019-11-11 23:32:14.412000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-11 23:32:14.412000000 Z
+    title: tools
+    description: 
+    url: "//images.ctfassets.net/t6iwcjsrmz2t/sjLBpY4az3vr1crRbnmdG/8ac2b16bb13dbf7f86cf4f4e980c9f29/tools.png"
+  title: Custom job pages
+  desc: Match employer’s websites to match branding, authenticity, and drive traffic
+    back to employer’s site.
+- sys:
+    id: 5PxLu8UZSvlUUX7xIpPrez
+    created_at: !ruby/object:DateTime 2019-11-11 23:38:12.737000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-11 23:38:12.737000000 Z
+    content_type_id: atsProduct
+    revision: 1
+  image:
+    sys:
+      id: sjLBpY4az3vr1crRbnmdG
+      created_at: !ruby/object:DateTime 2019-11-11 23:32:14.412000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-11 23:32:14.412000000 Z
+    title: tools
+    description: 
+    url: "//images.ctfassets.net/t6iwcjsrmz2t/sjLBpY4az3vr1crRbnmdG/8ac2b16bb13dbf7f86cf4f4e980c9f29/tools.png"
+  title: TextTender
+  desc: Recommend text to engage future applicants and avoid implicit bias on your
+    job description wording.
+ats:
+- sys:
+    id: 1QiAuIbK3F7uUADs65k1hO
+    created_at: !ruby/object:DateTime 2019-11-08 21:13:52.949000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-11 23:32:24.991000000 Z
+    content_type_id: ats
+    revision: 5
+  title: Online ATS
+  desc: TeamWork provides an applicant management system to post jobs, review, compound,
+    turn-off candidates and manage the complete recruiting process within the system.
+  image:
+  - sys:
+      id: sjLBpY4az3vr1crRbnmdG
+      created_at: !ruby/object:DateTime 2019-11-11 23:32:14.412000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-11 23:32:14.412000000 Z
+    title: tools
+    description: 
+    url: "//images.ctfassets.net/t6iwcjsrmz2t/sjLBpY4az3vr1crRbnmdG/8ac2b16bb13dbf7f86cf4f4e980c9f29/tools.png"
+  cta: Contact us about an annual license
+featureCard:
+- sys:
+    id: 117M5eGnfL7KWWt5ZMBBv3
+    created_at: !ruby/object:DateTime 2019-11-09 01:06:52.237000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-09 01:06:52.237000000 Z
+    content_type_id: featureCard
+    revision: 1
+  image:
+    sys:
+      id: 4KG9vONQvQgezJPacRTKp7
+      created_at: !ruby/object:DateTime 2019-11-09 00:56:00.714000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-09 00:56:00.714000000 Z
+    title: landing-group2
+    description: 
+    url: "//images.ctfassets.net/t6iwcjsrmz2t/4KG9vONQvQgezJPacRTKp7/3a6f767fa73ddacb6f4e5e0cc0ba809e/landing-group2.jpg"
+  name: Constuling Projects
+  desc: Executive recruiting and hiring events. Visit teamworkconsulting.com for more.
+  url: https://teamworkonline.com
+- sys:
+    id: 59sD3Fp6CmkUikHguUtnXK
+    created_at: !ruby/object:DateTime 2019-11-09 01:06:41.617000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-09 01:06:41.617000000 Z
+    content_type_id: featureCard
+    revision: 1
+  image:
+    sys:
+      id: 4KG9vONQvQgezJPacRTKp7
+      created_at: !ruby/object:DateTime 2019-11-09 00:56:00.714000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-09 00:56:00.714000000 Z
+    title: landing-group2
+    description: 
+    url: "//images.ctfassets.net/t6iwcjsrmz2t/4KG9vONQvQgezJPacRTKp7/3a6f767fa73ddacb6f4e5e0cc0ba809e/landing-group2.jpg"
+  name: HRIS Platforms
+  desc: TeamWork Online integrates with Greenhouse, Ultipro, Workday, iCIMS, ADP,
+    and Ceridian Dayforce.
+  url: https://teamworkonline.com
+- sys:
+    id: 2MiVKtUWBA873pCWkYHjsB
+    created_at: !ruby/object:DateTime 2019-11-09 01:06:23.614000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-09 01:06:23.614000000 Z
+    content_type_id: featureCard
+    revision: 1
+  image:
+    sys:
+      id: 4KG9vONQvQgezJPacRTKp7
+      created_at: !ruby/object:DateTime 2019-11-09 00:56:00.714000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-09 00:56:00.714000000 Z
+    title: landing-group2
+    description: 
+    url: "//images.ctfassets.net/t6iwcjsrmz2t/4KG9vONQvQgezJPacRTKp7/3a6f767fa73ddacb6f4e5e0cc0ba809e/landing-group2.jpg"
+  name: Business Cards
+  desc: Our digital business cards are synced to your profile. Use them on your email
+    signature and whenever something changes in your career, your card will automatically
+    update.
+  url: https://teamworkonline.com
+- sys:
+    id: 4lcg8y2v4k7CnxjkNTI2NF
+    created_at: !ruby/object:DateTime 2019-11-09 01:06:11.290000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-09 01:06:11.290000000 Z
+    content_type_id: featureCard
+    revision: 1
+  image:
+    sys:
+      id: 4KG9vONQvQgezJPacRTKp7
+      created_at: !ruby/object:DateTime 2019-11-09 00:56:00.714000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-09 00:56:00.714000000 Z
+    title: landing-group2
+    description: 
+    url: "//images.ctfassets.net/t6iwcjsrmz2t/4KG9vONQvQgezJPacRTKp7/3a6f767fa73ddacb6f4e5e0cc0ba809e/landing-group2.jpg"
+  name: Interview Scheduling
+  desc: Calendy integrations make sure your candidates are the first to see new job
+    openings.
+  url: https://teamworkonline.com
+- sys:
+    id: 5zltHhxfj09PU06aH9Hwi7
+    created_at: !ruby/object:DateTime 2019-11-09 00:56:37.843000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-09 01:05:52.563000000 Z
+    content_type_id: featureCard
+    revision: 4
+  image:
+    sys:
+      id: 4KG9vONQvQgezJPacRTKp7
+      created_at: !ruby/object:DateTime 2019-11-09 00:56:00.714000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-09 00:56:00.714000000 Z
+    title: landing-group2
+    description: 
+    url: "//images.ctfassets.net/t6iwcjsrmz2t/4KG9vONQvQgezJPacRTKp7/3a6f767fa73ddacb6f4e5e0cc0ba809e/landing-group2.jpg"
+  name: TextTender
+  desc: Recommend text to engage future applicants and avoid implicit bias on your
+    job description wording.
+  url: https://teamworkonline.com
+features:
+- sys:
+    id: 68W20MZW4ozzEcy55Zdmvs
+    created_at: !ruby/object:DateTime 2019-11-09 00:50:49.005000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-09 00:50:49.005000000 Z
+    content_type_id: features
+    revision: 1
+  header: Special Features & Products
+  desc: We have a host of products other than our ATS and Recruiting Tools that aim
+    to get your candidates hired in any way possible.
+organizations:
+- sys:
+    id: 1j0UUaUa4PJeui47rOftoJ
+    created_at: !ruby/object:DateTime 2019-11-08 21:21:31.946000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-08 21:21:31.946000000 Z
+    content_type_id: organizations
+    revision: 1
+  headline: Trusted by over 900 organizations and 130,000 hires
+  image:
+  - sys:
+      id: 3t1mfibAyCBGPKJst8G3H3
+      created_at: !ruby/object:DateTime 2019-11-08 21:21:44.100000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-08 21:21:44.100000000 Z
+    title: giants
+    description: 
+    url: "//images.ctfassets.net/t6iwcjsrmz2t/3t1mfibAyCBGPKJst8G3H3/2fadcd7f5b6f959792b1b9ce5ad52bed/giants.png"
+  - sys:
+      id: 3kXWmh1PGKnJGFVruJICfW
+      created_at: !ruby/object:DateTime 2019-11-08 21:21:44.091000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-08 21:21:44.091000000 Z
+    title: rockets
+    description: 
+    url: "//images.ctfassets.net/t6iwcjsrmz2t/3kXWmh1PGKnJGFVruJICfW/42ce6f75941e9ebd134ea33e1cd7a5d9/rockets.png"
+  - sys:
+      id: 5jCfQaregNINunhJzpRocG
+      created_at: !ruby/object:DateTime 2019-11-08 21:21:44.155000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-08 21:21:44.155000000 Z
+    title: sia
+    description: 
+    url: "//images.ctfassets.net/t6iwcjsrmz2t/5jCfQaregNINunhJzpRocG/3fe01b210fc9bf43450a5531dd52d2cf/sia.png"
+  - sys:
+      id: 4CSIJ2cY8u2r7Z1FmY7lAl
+      created_at: !ruby/object:DateTime 2019-11-08 21:21:44.088000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-08 21:21:44.088000000 Z
+    title: texans
+    description: 
+    url: "//images.ctfassets.net/t6iwcjsrmz2t/4CSIJ2cY8u2r7Z1FmY7lAl/a55fed563bd8fcf9672b78540be3cac9/texans.png"
+  - sys:
+      id: LAQdD3Gp6L2iON60a6gSQ
+      created_at: !ruby/object:DateTime 2019-11-08 21:21:43.869000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-08 21:21:43.870000000 Z
+    title: pga
+    description: 
+    url: "//images.ctfassets.net/t6iwcjsrmz2t/LAQdD3Gp6L2iON60a6gSQ/b24cdb1ded8b11b91ab40abe3e257a5a/pga.png"
+  - sys:
+      id: 26geYaaxlXkPF3SeqGYflG
+      created_at: !ruby/object:DateTime 2019-11-08 21:21:44.206000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-08 21:21:44.206000000 Z
+    title: calgary
+    description: 
+    url: "//images.ctfassets.net/t6iwcjsrmz2t/26geYaaxlXkPF3SeqGYflG/133d80df28b9610f57122bdf42bbe808/calgary.png"
+  - sys:
+      id: 1783uOuXceOOKyUXBA2TWw
+      created_at: !ruby/object:DateTime 2019-11-08 21:21:44.040000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-08 21:21:44.040000000 Z
+    title: cavs
+    description: 
+    url: "//images.ctfassets.net/t6iwcjsrmz2t/1783uOuXceOOKyUXBA2TWw/0530e0343a5b36ebc50b34407f7121c8/cavs.png"
+  - sys:
+      id: 75dBJKoVAydSeaUTwaT5yA
+      created_at: !ruby/object:DateTime 2019-11-08 21:21:44.100000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-08 21:21:44.100000000 Z
+    title: wta
+    description: 
+    url: "//images.ctfassets.net/t6iwcjsrmz2t/75dBJKoVAydSeaUTwaT5yA/4fb0255c31e67dbd80c0204c683c8eca/wta.png"
+productLink:
+- sys:
+    id: 2kchAvQa5UqOMgF55NbkZX
+    created_at: !ruby/object:DateTime 2019-11-08 18:13:34.392000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-11 23:12:01.715000000 Z
+    content_type_id: productLink
+    revision: 5
+  icon:
+    sys:
+      id: 2MadLs2tRKJG3C5vSnP97t
+      created_at: !ruby/object:DateTime 2019-11-08 17:45:39.305000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-08 18:59:42.687000000 Z
+    title: users-alt-3
+    description: 
+    url: "//images.ctfassets.net/t6iwcjsrmz2t/2MadLs2tRKJG3C5vSnP97t/daab4d5cc81fa69af57b15e0065fb590/users-alt-3.svg"
+  name: Applicant Management System
+  description: Everything stays in one place, our integrated system helps you stay
+    organized.
+  cta: View ATS
+  url: http://127.0.0.1:4000/ats/
+- sys:
+    id: 6tUVkJkXPZdeQSZPGAJhW6
+    created_at: !ruby/object:DateTime 2019-11-08 18:42:36.967000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-08 21:14:28.418000000 Z
+    content_type_id: productLink
+    revision: 4
+  icon:
+    sys:
+      id: 1zqGgPFdKaBSXWwDfxN1Nd
+      created_at: !ruby/object:DateTime 2019-11-08 17:45:39.297000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-08 18:59:32.347000000 Z
+    title: addons
+    description: 
+    url: "//images.ctfassets.net/t6iwcjsrmz2t/1zqGgPFdKaBSXWwDfxN1Nd/7e6960de26a7f1f55a0f209455dd316a/addons.svg"
+  name: Special Features & Products
+  description: Using SEO best practices and outreach, TeamWork helps you find candidates
+    outside our system.
+  cta: View Features
+  url: http://127.0.0.1:4000/features/
+- sys:
+    id: 2IvaABTswYsEaFKvY4oNCi
+    created_at: !ruby/object:DateTime 2019-11-08 17:59:23.253000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-08 21:11:17.058000000 Z
+    content_type_id: productLink
+    revision: 6
+  icon:
+    sys:
+      id: 4uUiNzwwNOnNS2YQ5FZtau
+      created_at: !ruby/object:DateTime 2019-11-08 17:45:39.287000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-08 18:59:53.123000000 Z
+    title: tools-alt-2
+    description: 
+    url: "//images.ctfassets.net/t6iwcjsrmz2t/4uUiNzwwNOnNS2YQ5FZtau/9090bffa215f5e0c11c554f258ce4bb9/tools-alt-2.svg"
+  name: Recruiting Tools
+  description: Everything you need to build your lasting recruiting system–don’t start
+    from scratch again.
+  cta: View Tools
+  url: http://127.0.0.1:4000/tools/
+tools:
+- sys:
+    id: 61lCysG2L7ipO7aGkA5uGm
+    created_at: !ruby/object:DateTime 2019-11-08 19:03:43.814000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-08 21:12:27.397000000 Z
+    content_type_id: tools
+    revision: 2
+  title: Recruiting Tools
+home:
+- sys:
+    id: 5llofLklRswHSOldtDkbN0
+    created_at: !ruby/object:DateTime 2019-11-07 22:38:17.393000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-08 22:20:46.491000000 Z
+    content_type_id: home
+    revision: 4
+  header_title: Recruiting Software with over 130,000 success stories built for Sports
+    & Entertainment
+  header_description: Everything you need to attract, source, and hire your top talent
+    at every size organization.
+  slideshow:
+  - sys:
+      id: 2FoHeOia15FXbHwO618F7h
+      created_at: !ruby/object:DateTime 2019-11-08 17:19:54.079000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-08 17:19:54.079000000 Z
+    title: landing-group1
+    description: 
+    url: "//images.ctfassets.net/t6iwcjsrmz2t/2FoHeOia15FXbHwO618F7h/83911e61166636b520739d6755a34f5c/landing-group1.jpg"
+  sub_header: Why TeamWork Online?
