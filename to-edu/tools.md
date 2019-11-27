@@ -27,7 +27,7 @@ header:
 </section>
 
 <section class="bg-white container mx-auto center py4 wow fadeInUp" data-wow-delay="0.2s">
-<h2 class="h2 oswald black line-height-3 col-8 mx-auto">{{ page_data.subheader }}</h2>
+<h2 class="h2 oswald black line-height-3 col-8 mx-auto">{{ page_data.sub_header }}</h2>
 </section>
 
 <section class="bg-gray1 py4 my4">

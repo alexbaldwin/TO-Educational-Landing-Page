@@ -7,12 +7,12 @@ header:
   desc: "TeamWork Consulting is a hands-on executive recruiting service featuring the personal touch of Buffy Filippell."
 ---
 
-{% assign page_data = site.data.posts.ats[0] %}
+{% assign page_data = site.data.posts.atsPage[0] %}
 
 <section class="bg-white container mx-auto pt4">
 <header class="md-flex items-center mxn2 mt4 mb0 wow fadeInUp" data-wow-delay="0.1s">
 <div class="col-12 md-col-7">
-<img class="block col-12" src="{{ item.image.url }}">
+<img class="block col-12" src="{{ page_data.image.url }}">
 </div>
 <div class="col-12 md-col-5 ml2">
 <h2 class="oswald line-height-3 h2 black caps mb0">{{ page_data.title }}</h2>

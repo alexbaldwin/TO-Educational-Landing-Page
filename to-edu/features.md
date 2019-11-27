@@ -7,7 +7,7 @@ header:
   desc: "TeamWork Consulting is a hands-on executive recruiting service featuring the personal touch of Buffy Filippell."
 ---
 
-{% assign page_data = site.data.posts.features[0] %}
+{% assign page_data = site.data.posts.featuresPage[0] %}
 
 <section class="bg-white container mx-auto py4">
 <header class="md-flex items-center">

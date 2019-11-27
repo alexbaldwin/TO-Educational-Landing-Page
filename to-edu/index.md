@@ -7,7 +7,7 @@ cta:
   email: "buffy@teamworkonline.com"
   subject: "Test subject"
 ---
-{% assign page_data = site.data.posts.home[0] %}
+{% assign page_data = site.data.posts.twoMarketingHome[0] %}
 
 {% include mega-header.html %}
 
@@ -16,11 +16,11 @@ cta:
 <div class="flex flex-wrap">
 {% assign productLink = site.data.posts.productLink | sort: 'sort' %}
 {% for item in productLink %}
-<a href="{{ item.url }}" class="text-decoration-none px2 flex flex-column col-12 md-col-4 mb3 wow fadeInUp" data-wow-delay="0.2s"  style="order:{{ item.order_override }}">
+<a href="{{ item.url }}" class="text-decoration-none px2 flex flex-column col-12 md-col-4 mb3 wow fadeInUp" data-wow-delay="0.2s"  style="order:{{ item.orderOverride }}">
 <div class="flex-auto px3 pt3 card-shadow bg-white"  style="margin-top: -4rem;">
 <img src="{{ item.icon.url }}" style= "width: 44px;">
 <h2 class="oswald black mb2">{{ item.name }}</h2>
-<h3 class="oswald line-height-4 h4 mb3 regular black">{{ item.description }}</h3>
+<h3 class="oswald line-height-4 h4 mb3 regular black">{{ item.desc }}</h3>
 </div>
 <div class="flex-none p3 bg-white">
 <p class="btn-two caps block oswald white bg-green semibold h6 px3 py1 my0 ltr-spacing-2">{{ item.cta }}</p>
@@ -54,7 +54,7 @@ cta:
 
 <section class="container mx-auto bg-white py4">
 
-{% assign page_data = site.data.posts.home[0] %}
+{% assign page_data = site.data.posts.twoMarketingHome[0] %}
 
 <h2 class="oswald line-height-4 h2 regular black center">{{ page_data.sub_header }}</h2>
 <div class="px2 mt4 clearfix">
