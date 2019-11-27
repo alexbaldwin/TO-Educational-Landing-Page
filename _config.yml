@@ -1,0 +1,73 @@
+---
+title: Teamwork Online
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  resources:
+    title: Resources
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    permalink: "/posts/:title/"
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+- scope:
+    path: ''
+    type: resources
+  values:
+    layout: resource
+email: your-email@example.com
+description: ''
+social:
+  name: teamworkonline
+  links:
+  - https://www.linkedin.com/company/teamwork-online-llc
+  - https://www.facebook.com/TeamWorkOnline
+  - https://www.instagram.com/teamworkonline/
+  - https://twitter.com/teamworkonline
+twitter:
+  username: teamworkonline
+nav:
+- title: Jobs
+  url: "/jobs/"
+baseurl: ''
+url: ''
+google_analytics:
+markdown: kramdown
+highlighter: rouge
+plugins:
+- jekyll-feed
+include:
+- _redirects
+exclude:
+- Gemfile
+- Gemfile.lock
+- node_modules
+- vendor/bundle/
+- vendor/cache/
+- vendor/gems/
+- vendor/ruby/
+permalink: pretty
+sass:
+  sass_dir: _scss
+  style: compressed
+phone: "(216) 360-1790"
+tel: 12163601790
+contentful:
+  spaces:
+    - posts:
+        space: utl7jk5xzwje
+        access_token: M7EkD8uTIBpz9KH1rKCKC6p1UE2Ehp4ublFvHj5bYpU
+        destination: ""
