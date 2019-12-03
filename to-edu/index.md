@@ -11,13 +11,13 @@ cta:
 
 {% include mega-header.html %}
 
-<section class="bg-silver">
-<div class="container mx-auto">
-<div class="flex flex-wrap">
+<section class="container mx-auto">
+
+<div class="flex flex-wrap" style="margin-top: -4rem;">
 {% assign productLink = site.data.posts.productLink | sort: 'sort' %}
 {% for item in productLink %}
-<a href="{{ item.url }}" class="text-decoration-none px2 flex flex-column col-12 md-col-4 mb3 wow fadeInUp" data-wow-delay="0.2s"  style="order:{{ item.orderOverride }}">
-<div class="flex-auto px3 pt3 card-shadow bg-white"  style="margin-top: -4rem;">
+<a href="{{ item.url }}" class="text-decoration-none flex flex-column p2 col-12 md-col-4 wow fadeInUp" data-wow-delay="0.2s"  style="order:{{ item.orderOverride }};">
+<div class="flex-auto px3 pt3 card-shadow bg-white"  >
 <img src="{{ item.icon.url }}" style= "width: 44px;">
 <h2 class="oswald black mb2">{{ item.name }}</h2>
 <h3 class="oswald line-height-4 h4 mb3 regular black">{{ item.desc }}</h3>
@@ -27,11 +27,11 @@ cta:
 </div>
 </a>
 {% endfor %}
-</div>
+
 </div>
 </section>
 
-<section class="bg-silver pb4">
+<section class="pb4">
 <div class="container mx-auto">
 <div class="flex flex-wrap">
 {% assign page_data = site.data.posts.organizations[0] %}
@@ -52,7 +52,8 @@ cta:
 </div>
 </section>
 
-<section class="container mx-auto bg-white py4">
+<section class="bg-white py4">
+<div class="container mx-auto">
 
 {% assign page_data = site.data.posts.twoMarketingHome[0] %}
 
@@ -64,7 +65,7 @@ cta:
 
 {% for item in orderedList %}
 
-<div class="sm-col-12 md-col-3 px2 wow fadeInUp" data-wow-delay="0.1s">
+<div class="sm-col-12 md-col-3 px2 wow fadeInUp" data-wow-delay="0.1s" style="order:{{ item.order }}">
 <h3 class="oswold black h3 bold mb2">{{ item.order }}</h3>
 <h4 class="oswold black h4 my0 bold">{{ item.title }}</h4>
 <p class="mb4 oswold black h5 regular">{{ item.desc }}</p>
@@ -72,5 +73,6 @@ cta:
 
 {% endfor %}
 
+</div>
 </div>
 <!-- </section> -->

@@ -3,10 +3,10 @@ twoMarketingHome:
 - sys:
     id: 2LRwibhuevkvk8R9noIGPH
     created_at: !ruby/object:DateTime 2019-11-27 17:19:25.070000000 Z
-    updated_at: !ruby/object:DateTime 2019-11-27 17:19:25.070000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-27 19:56:10.791000000 Z
     content_type_id: twoMarketingHome
-    revision: 1
-  header_title: Recruiting Software with over 130,000 success stories built for Sports
+    revision: 2
+  header_title: Recruiting Software with over 135,000 success stories built for Sports
     & Entertainment
   header_desc: Everything you need to attract, source, and hire your top talent at
     every size organization.
@@ -436,9 +436,9 @@ orderedList:
 - sys:
     id: 1ZpsyAFZixNI0XNUQK2m3G
     created_at: !ruby/object:DateTime 2019-11-27 16:49:16.908000000 Z
-    updated_at: !ruby/object:DateTime 2019-11-27 16:49:16.908000000 Z
+    updated_at: !ruby/object:DateTime 2019-12-03 17:10:07.234000000 Z
     content_type_id: orderedList
-    revision: 1
+    revision: 2
   order: 5
   title: Flexible
   desc: It provides talent acquisition tools and services that are not provided by
@@ -446,9 +446,9 @@ orderedList:
 - sys:
     id: 2nxOrxpsEzJrRXeJCukqM5
     created_at: !ruby/object:DateTime 2019-11-27 16:49:06.877000000 Z
-    updated_at: !ruby/object:DateTime 2019-11-27 16:49:06.877000000 Z
+    updated_at: !ruby/object:DateTime 2019-12-03 17:10:15.458000000 Z
     content_type_id: orderedList
-    revision: 1
+    revision: 2
   order: 4
   title: Higher Education
   desc: 300+ universities are partners and 45+ of them subscribe to in-depth career
@@ -457,18 +457,18 @@ orderedList:
 - sys:
     id: 7aWqLeiHkiaBoHFREgHoMK
     created_at: !ruby/object:DateTime 2019-11-27 16:48:56.622000000 Z
-    updated_at: !ruby/object:DateTime 2019-11-27 16:48:56.622000000 Z
+    updated_at: !ruby/object:DateTime 2019-12-03 17:10:19.988000000 Z
     content_type_id: orderedList
-    revision: 1
+    revision: 2
   order: 3
   title: Community
   desc: Its welcoming platform attracts 200,000 diverse candidates annually.
 - sys:
     id: 5cfbDIFGSl1YxJJGI81imr
     created_at: !ruby/object:DateTime 2019-11-27 16:48:45.537000000 Z
-    updated_at: !ruby/object:DateTime 2019-11-27 16:48:45.537000000 Z
+    updated_at: !ruby/object:DateTime 2019-12-03 17:10:26.148000000 Z
     content_type_id: orderedList
-    revision: 1
+    revision: 2
   order: 2
   title: Top Talent
   desc: Its dedicated site showcases only vetted high quality jobs from over 900+
@@ -477,9 +477,9 @@ orderedList:
 - sys:
     id: 3jxsMIZ5Mqc60GqWHMinaz
     created_at: !ruby/object:DateTime 2019-11-27 16:48:30.734000000 Z
-    updated_at: !ruby/object:DateTime 2019-11-27 16:48:30.734000000 Z
+    updated_at: !ruby/object:DateTime 2019-12-03 17:10:30.566000000 Z
     content_type_id: orderedList
-    revision: 1
+    revision: 2
   order: 1
   title: Industry Leader
   desc: According to Google Analytics, over 50% of job applicants to major league

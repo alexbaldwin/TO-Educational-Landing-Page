@@ -9,8 +9,9 @@ header:
 
 {% assign page_data = site.data.posts.atsPage[0] %}
 
-<section class="bg-white container mx-auto pt4">
-<header class="md-flex items-center mxn2 mt4 mb0 wow fadeInUp" data-wow-delay="0.1s">
+<section class="bg-white">
+<div class="container mx-auto py4">
+<header class="md-flex items-center mt4 mb0 wow fadeInUp" data-wow-delay="0.1s">
 <div class="col-12 md-col-7">
 <img class="block col-12" src="{{ page_data.image.url }}">
 </div>
@@ -22,14 +23,16 @@ header:
 </p>
 </div>
 </header>
+</div>
 </section>
 
 
-<section class="bg-white container mx-auto pt4 mb4">
+<section class="bg-white">
+<div class="container mx-auto">
 {% assign atsProduct = site.data.posts.atsProduct %}
 
 {% for item in atsProduct %}
-<article class="md-flex items-center mxn2 mt4 mb0 wow fadeInUp" data-wow-delay="0.2s">
+<article class="md-flex items-center mxn2 mb0 wow fadeInUp" data-wow-delay="0.2s" style="padding: 6rem 0 6rem 0;">
 <div class="col-12 md-col-5 {% cycle 'order-last', '' %}">
 <img class="block col-12" src="{{ item.image.url }}">
 </div>
@@ -40,4 +43,5 @@ header:
 </article>
 
 {% endfor %}
+</div>
 </section>

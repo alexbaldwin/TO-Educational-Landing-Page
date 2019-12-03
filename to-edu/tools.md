@@ -9,7 +9,8 @@ header:
 
 {% assign page_data = site.data.posts.recruitingToolsPage[0] %}
 
-<section class="bg-white container mx-auto pt4">
+<section class="bg-white">
+<div class=" container mx-auto pt4">
 
 <header class="md-flex items-center mxn2 mt4 mb0 wow fadeInUp">
 <div class="col-12 md-col-7">
@@ -24,14 +25,17 @@ header:
 </div>
 </header>
 
+</div>
 </section>
 
-<section class="bg-white container mx-auto center py4 wow fadeInUp" data-wow-delay="0.2s">
-<h2 class="h2 oswald black line-height-3 col-8 mx-auto">{{ page_data.sub_header }}</h2>
+<section class="bg-white center py4 wow fadeInUp" data-wow-delay="0.2s">
+<div class="container mx-auto">
+<h2 class="h2 oswald black line-height-3 col-8 pb4 mx-auto">{{ page_data.sub_header }}</h2>
+</div>
 </section>
 
-<section class="bg-gray1 py4 my4">
-<div class=" container mx-auto flex flex-wrap">
+<section class="py4">
+<div class="container mx-auto flex flex-wrap">
 
 <div class="md-col-6 px4 my4 black flex items-center wow fadeInUp" data-wow-delay="0.2s">
 <div class="flex-auto">
@@ -59,8 +63,8 @@ header:
 </div>
 </section>
 
-<section class="container mx-auto bg-white pb4">
-<div class="px2 mt4 clearfix">
+<section class="bg-white py3">
+<div class="px2 mt4 clearfix container mx-auto">
 <div class="md-flex flex-auto mt4">
 
 {% assign unorderedList = site.data.posts.unorderedList %}
@@ -70,7 +74,7 @@ header:
 <div class="sm-col-12 md-col-3 px2 wow fadeInUp" data-wow-delay="0.1s">
 <img src="{{ item.image.url }}" style="width: 44px">
 <h4 class="oswold black h4 my0 bold pt3">{{ item.title }}</h4>
-<p class="mb4 oswold black h5 regular">{{ item.desc }}</p>
+<p class="mb4 oswold black h5 regular pb4">{{ item.desc }}</p>
 </div>
 
 {% endfor %}

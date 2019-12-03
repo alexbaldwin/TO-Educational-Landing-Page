@@ -9,8 +9,9 @@ header:
 
 {% assign page_data = site.data.posts.featuresPage[0] %}
 
-<section class="bg-white container mx-auto py4">
-<header class="md-flex items-center">
+<section class="bg-white">
+<div class="container mx-auto py4">
+<header class="md-flex items-center py4">
 <div class="col-8 center mx-auto my4 wow fadeInUp">
 <h2 class="oswald line-height-3 h2 black caps mb0">{{ page_data.header }}</h2>
 <h4 class="line-height-4 h4 regular mb3 black mb4">{{ page_data.desc }}</h4>
@@ -19,12 +20,12 @@ header:
 </p>
 </div>
 </header>
+</div>
 </section>
 
-<section class="bg-silver">
-<div class="container mx-auto">
-<div class="flex flex-wrap pb4"  style="margin-top: -4rem;">
+<section class="container mx-auto">
 
+<div class="flex flex-wrap pb4"  style="margin-top: -4rem;">
 
 {% assign featureCard = site.data.posts.featureCard %}
 
@@ -40,6 +41,5 @@ header:
 </a>
 {% endfor %}
 
-</div>
 </div>
 </section>  
